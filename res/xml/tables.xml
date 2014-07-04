@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<database name="System14" version="1">
+  <!-- Table "User" -->
+  <table name="user" to-string="%title%">
+    <field name="bt" obligatory="true" type="text" size="128"/><!-- Base technique de l'employé -->
+    <field name="type" obligatory="true" type="text" size="128"/><!-- type l'employé -->
+    <field name="sup" obligatory="true" type="text" size="128"/><!-- supérieur hiérarchique de l'employé -->
+    <field name="nom" obligatory="true" type="text" size="128"/><!-- nom de l'employé -->
+    <field name="prenom" obligatory="true" type="text" size="128"/><!-- prenom de l'employé -->
+    <field name="sexe" obligatory="true" type="text" size="1"/><!-- sexe de l'employé -->
+    <field name="nele" obligatory="true" type="text" size="20"/><!-- date de naissance de l'employé -->
+    <field name="cni" obligatory="true" type="text" size="20"/><!-- N°CNI de l'employé -->
+    <field name="adresse" obligatory="true" type="text" size="20"/><!-- Adresse de l'employé -->
+    <field name="login" obligatory="true" type="text" size="128"/><!-- Login de l'employé -->
+    <field name="pwd" obligatory="true" type="text" size="128"/><!-- Mot de passe de l'employé -->
+    <field name="idemp" obligatory="true" type="text" size="12"/><!-- Identifiant de l'employé -->
+    <field name="idbt" obligatory="true" type="text" size="12"/><!-- Identifiant de la base technique de l'employé -->
+    <field name="nombt" obligatory="true" type="text" size="12"/><!-- Nom de la base technique de l'employé -->
+  </table>
+  <!-- Table "SOS" -->
+  <table name="sos" to-string="%name%" backup="no">
+    <field name="idemp" obligatory="true" type="text" size="12"/><!-- Identifiant de l'employé qui a envoyé le SOS -->
+    <field name="objet" obligatory="true" type="text" size="128"/><!-- objet du SOS -->
+    <field name="contenu" obligatory="true" type="text" size="128"/><!-- contenu du SOS -->
+    <field name="dateenvoi" obligatory="true" type="text" size="128"/><!-- date d'envoi du SOS -->
+  </table>
+  <!-- Table "Assignation" -->
+  <table name="assignation" to-string="%name%" backup="no">
+    <field name="idincident" obligatory="true" type="text" size="12"/><!-- Identifiant de l'incident assigné à l'employé -->
+    <field name="idemp" obligatory="true" type="text" size="12"/><!-- Identifiant de l'employé à qui l'incident est assigné -->
+    <field name="dateajout" obligatory="true" type="text" size="20"/><!-- date d'assignation de l'incident -->
+  </table>
+  <!-- Table "Incident" -->
+  <table name="incident" to-string="%name%" backup="no">
+    <field name="_idincident" obligatory="true" type="text" size="12"/><!-- Identifiant de l'incident -->
+    <field name="dte_inc" obligatory="true" type="text" size="20"/><!-- date de l'incident -->
+    <field name="libelleIncident" obligatory="true" type="text" size="128"/><!-- libelle de l'incident -->
+    <field name="localisationincident" obligatory="true" type="text" size="128"/><!-- localisation (quartier) de l'incident -->
+    <field name="pointrepere" obligatory="true" type="text" size="128"/><!-- Point de repère de l'incident -->
+    <field name="etatincident" obligatory="true" type="text" size="12"/><!-- Point de repère de l'incident -->
+    <field name="descriptionincident" obligatory="true" type="text" size="128"/><!-- Description de l'incident -->
+    <field name="nature" obligatory="true" type="text" size="128"/><!-- nature de l'incident -->
+  </table>
+  <!-- Table "rapports" -->
+  <table name="rapport" to-string="%name%" backup="no">
+    <field name="_idrapport" obligatory="true" type="text" size="12"/><!-- Identifiant du rapport -->
+    <field name="idemp" obligatory="true" type="text" size="12"/><!-- Identifiant de l'employé qui a édité le rapport -->
+    <field name="idincident" obligatory="true" type="text" size="20"/><!-- identifiant de l'incident -->
+    <field name="libellerapport" obligatory="true" type="text" size="128"/><!-- libellé du rapport -->
+    <field name="contenurapport" obligatory="true" type="text" size="128"/><!-- contenu du rapport -->
+    <field name="dateenvoi" obligatory="true" type="text" size="128"/><!-- date d'envoi du rapport -->
+  </table>
+    
+ </database>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+    
+    <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TabFirst"
+        android:layout_marginTop="10sp">
+        <TableRow 
+             android:textColor="@color/TextColor"
+             android:id="@+id/TabRowIncidentSolve"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:paddingBottom="5sp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            >
+            <ImageButton android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:contentDescription="incident"
+                android:id="@+id/ImgPintSolve"
+                android:layout_marginRight="100sp"
+                android:background="@android:color/transparent"
+                android:onClick="@string/funcGetTest"/>
+            <TextView 
+                android:id="@+id/TextLibelleSolve"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="15sp"/>
+            <TextView 
+                android:id="@+id/TextdescSolve"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="15sp"/>
+            <TextView 
+                android:id="@+id/TextLocalisationSolve"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="15sp"/>
+            <ImageView android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:contentDescription="incident"
+                android:id="@+id/ImgStatusSolve"
+                android:layout_marginRight="50sp"/>
+             <ImageView android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:contentDescription="incident"
+                android:id="@+id/ImgViewSolve"
+                android:layout_marginRight="50sp"/>
+            
+            
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

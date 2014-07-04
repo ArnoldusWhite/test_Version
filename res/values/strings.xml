@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_account">Account</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fragment_tab_account">FragmentTabAccount</string>
+    <string name="title_activity_frag_tab_password">FragTabPassword</string>
+    <string name="title_activity_authentification">Authentification</string>
+    <string name="title_activity_request_fragment">RequestFragment</string>
+    <string name="title_activity_frag_tab_msos">FragTabMsos</string>
+    <string name="title_activity_frag_tab_sendsos">FragTabSendsos</string>
+    <string name="title_activity_frag_tab_incident_solve">FragTabIncidentSolve</string>
+    <string name="title_activity_frag_tabnotresolve">FragTabnotresolve</string>
+    <string name="Total">Total: 45</string>
+
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">HelpDesk</string>
+    
+    <!-- menu-gauche -->
+    <string name="title_section1">Liste Incidents</string>
+    <string name="title_section2">SOS</string>
+    <string name="title_section3">Afficher Scores</string>
+    <string name="title_section4">Gestion des Comptes</string>
+    <!-- fin -->
+    
+    <string name="navigation_drawer_open">Ouvrir</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    
+    <string name="action_About">A propos</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="action_language">Langue</string>
+    <string name="action_change_language">Changer Langue</string>
+    <string name="action_deconnect">Deconnexion</string>
+    <string-array name="list_language">
+         <item>Français</item>
+        <item>Anglais</item>
+    </string-array>
+    <string name="title_activity_fragment_incident">FragmentIncident</string>
+    
+    <string name="hello_world">Bonjour!</string>
+    <string name="title_activity_fragmen_tab">FragmenTab</string>
+    <string name="title_activity_dialog_fragment">DialogFragment</string>
+    
+    <string name="code">Code Incident :</string>
+    <string name="localisation">Localisation :</string>
+    <string name="desc">Description :</string>
+    <string name="etat">Etat :</string>
+    
+    <string name="ajouterCompte">Ajouter un compte</string>
+    <string name="Caption_list_compte">Liste des comptes</string>
+    <string name="compte_login">Login</string>
+    <string name="compte_pawd">Mot de passe</string>
+    <string name="logIn">Se connecter</string>
+    
+    <string name="funcGetTomain">GetToMain</string>
+    <string name="funcGetTest">Test</string>
+    
+    <string name="Nom">Nom       :</string>
+    <string name="Prenom">Prenom :</string>
+    <string name="dateNaiss">Date de naissance       :</string>
+    <string name="sexe">Sexe     :</string>
+    <string name="numSerie">Numéro de CNI  :</string>
+    <string name="adresse">Adresse :</string>
+    
+    <string name="OngletProfile">Mon Profile</string>
+    <string name="OngletPassword">Changer Votre Mot de Passe</string>
+    
+    <string name="AncienPwd">Ancien mot de passe</string>
+    <string name="NouveauPwd">Nouveau mot de passe </string>
+    <string name="ConfirmationPwd">Confirmer mot de passe</string>
+    <string name="confimer">Confirmer</string>
+    
+    <string name="TabMySOS">Mes SOS</string>
+    <string name="tabSend">Envoyer SOS</string>
+    <string name="researchText">Rechercher</string>
+    <string name="MySOS">Mes SOS</string>
+    <string name="SendSOS">Envoyer SOS</string>
+    <string name="Objet">Objet :</string>
+    <string name="Contenu">Contenu :</string>
+    <string name="Send">Envoyer</string>
+    
+    <string name="TitleListIncident">Liste Incidents</string>
+    <string name="TitleAssignResolu">Incidents Assignés Résolus</string>
+    <string name="TitleAssignNonResolu">Incidents Assignés Non Résolus</string>
+    
+    <string name="codeVal">Android provides an adaptive app framework that allows you to provide unique resources for different device configurations. For example, you can create different XML layout files for different screen sizes and the system determines which layout to apply based on the current devices screen size.</string>
+    <string name="descVal">In this example, the mIsLargeLayout boolean specifies whether the current device should use the apps large layout design (and thus show this fragment as a dialog, rather than fullscreen). The best way to set this kind of boolean is to declare a bool resource value with an alternative resource value for different screen sizes. For example, here are two versions of the bool resource for different screen sizes:</string>
+    <string name="title_activity_fragment_score">FragmentScore</string>
+    <string name="title_activity_fragmen_tab2">FragmenTab2</string>
+    <string name="title_activity_dialog_fragment_score">DialogFragmentScore</string>
+    
+    <color name="App_background">#409aff</color>
+    <color name="TextColor">#ffffff</color>
+</resources>
